@@ -1,0 +1,18 @@
+name: Tarea Rápida
+description: Crear una tarea rápidamente y completar el detalle luego.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Estás creando una Tarea Rápida. Es únicamente necesario agregar el nombre en este momento pero aceptás el compromiso de **obligatoriamente completar el resto de los campos luego siguiendo el template de Tarea General.**
+
+        El propósito de este template es permitir crear una tarea en momentos dónde no hay tiempo de completar todos los campos en detalle pero si se desea dejarla plasmada para luego completarla.
+
+        Para completar la tarea luego, abrila, selecciona "editar" desde el menú de los 3 puntos, luego en el cuadro de texto escribí "/" y selecciona "Templates". Desde allí vas a poder acceder a los templates de Tarea General en Markdown para completar todos los campos.
+  - type: input
+    id: brief-description
+    attributes:
+      label: Descripción
+      description: Opcionalmente podés guardar una breve descripción como ayuda a memoria para luego completar la tarea como corresponde.
+    validations:
+      required: false
