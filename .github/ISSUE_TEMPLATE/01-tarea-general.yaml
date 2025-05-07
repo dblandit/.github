@@ -1,5 +1,5 @@
 name: Tarea General
-description: Utiliza el formato de una tarea general.
+description: Utiliza el formato de una Tarea General con Objetivo, Definition of Done y Casos de Prueba.
 body:
   - type: markdown
     attributes:
@@ -40,6 +40,7 @@ body:
 
       value: |
         - [ ] ...
+        - [ ] Verificar todos los Casos de Prueba.
     validations:
       required: true
   - type: textarea
