@@ -1,4 +1,5 @@
 name: Tarea Rápida
+title: "BORRADOR - "
 description: Crear una tarea rápidamente y completar el detalle luego.
 body:
   - type: markdown
