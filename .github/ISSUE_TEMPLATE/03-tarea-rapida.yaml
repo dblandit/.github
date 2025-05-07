@@ -8,7 +8,7 @@ body:
 
         El propósito de este template es permitir crear una tarea en momentos dónde no hay tiempo de completar todos los campos en detalle pero si se desea dejarla plasmada para luego completarla.
 
-        Para completar la tarea luego, abrila, selecciona "editar" desde el menú de los 3 puntos, luego en el cuadro de texto escribí "/" y selecciona "Templates". Desde allí vas a poder acceder a los templates de Tarea General en Markdown para completar todos los campos.
+        Para completar la tarea luego, abrila, seleccioná "editar" desde el menú de los 3 puntos, luego en el cuadro de texto escribí "/" y seleccioná "Templates". Desde allí vas a poder acceder a los templates de Tarea General en Markdown para completar todos los campos.
   - type: input
     id: brief-description
     attributes:
