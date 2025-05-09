@@ -9,7 +9,6 @@ body:
 
         El propósito de este template es permitir crear una tarea en momentos dónde no hay tiempo de completar todos los campos en detalle pero si se desea dejarla plasmada para luego completarla.
 
-        Para completar la tarea luego, abrila, seleccioná "editar" desde el menú de los 3 puntos, luego en el cuadro de texto escribí "/" y seleccioná "Templates". Desde allí vas a poder acceder a los templates de Tarea General en Markdown para completar todos los campos.
   - type: input
     id: brief-description
     attributes:
@@ -17,3 +16,11 @@ body:
       description: Opcionalmente podés guardar una breve descripción como ayuda a memoria para luego completar la tarea como corresponde.
     validations:
       required: false
+  - type: checkboxes
+    id: acknowledge
+    attributes:
+      label: Aceptación
+      description: Para completar la tarea luego, abrila, selecciona "editar" desde el menú de los 3 puntos, luego en el cuadro de texto escribí "/" y selecciona "Templates". Desde allí vas a poder acceder a los templates de Tarea General en Markdown para completar todos los campos.
+      options:
+        - label: Me comprometo a completar la tarea como corresponde en menos de 24hs.
+          required: true
