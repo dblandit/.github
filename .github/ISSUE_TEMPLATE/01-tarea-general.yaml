@@ -1,5 +1,5 @@
 name: Tarea General
-description: Utiliza el formato de una Tarea General con Objetivo, Definition of Done y Casos de Prueba.
+description: Utiliza el formato de una Tarea General con Objetivo, Desglose de Tareas y Casos de Prueba.
 body:
   - type: markdown
     attributes:
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: definition-of-done
     attributes:
-      label: Definition of Done
+      label: Desglose de Tareas
       description: |
         Desglose de la tarea en accionables. 
         

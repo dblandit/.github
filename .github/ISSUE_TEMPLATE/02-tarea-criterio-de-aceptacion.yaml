@@ -1,5 +1,5 @@
 name: Tarea General con Criterio de Aceptación
-description: Utiliza el formato de una tarea general con Objetivo, Definition of Done y Casos de Prueba, y además se agregan los Criterios de Aceptación. Ideal para tareas con Casos de Prueba basados en eventos.
+description: Utiliza el formato de una tarea general con Objetivo, Desglose de Tareas y Casos de Prueba, y además se agregan los Criterios de Aceptación. Ideal para tareas con Casos de Prueba basados en eventos.
 body:
   - type: markdown
     attributes:
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: definition-of-done
     attributes:
-      label: Definition of Done
+      label: Desglose de Tareas
       description: |
         Desglose de la tarea en accionables. 
         
